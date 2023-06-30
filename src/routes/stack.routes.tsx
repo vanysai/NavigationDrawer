@@ -6,6 +6,7 @@ const {Screen, Navigator} = createNativeStackNavigator();
 
 import { ScreenA } from '../screens/ScreenA';
 import { ScreenB } from '../screens/ScreenB';
+import { ScreenC } from '../screens/ScreenC';
 
 export function StackRoutes(){
     return(
@@ -13,7 +14,7 @@ export function StackRoutes(){
             <Screen
                 name='screenA'
                 options={{
-                    title: 'Tela A',
+                    title: 'Lucy',
                     headerTitleAlign: 'center'
                 }}
                 component={ScreenA}
@@ -22,7 +23,7 @@ export function StackRoutes(){
             <Screen
                 name='screenB'
                 options={{
-                    title: 'Tela B',
+                    title: 'David',
                     headerTitleAlign: 'center',
                     headerStyle: {
                         backgroundColor:'navy',
@@ -30,6 +31,18 @@ export function StackRoutes(){
                     headerTintColor: 'white'
                 }}
                 component={ScreenB}
+            />
+             <Screen
+                name='screenC'
+                options={{
+                    title: 'Rebecca',
+                    headerTitleAlign: 'center',
+                    headerStyle: {
+                        backgroundColor:'#a2c23e',
+                    },
+                    headerTintColor: 'white'
+                }}
+                component={ScreenC}
             />
         </Navigator>
     )

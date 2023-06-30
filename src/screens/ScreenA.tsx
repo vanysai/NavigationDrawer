@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Button } from "react-native";
+import { View, Button, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 
@@ -13,8 +13,8 @@ export function ScreenA(){
 
 
     return (
-        <view style={{flex: 1, backgroundColor: 'red', justifyItems: 'center' }}>
-            <Button
+        <view style={{flex: 1, backgroundColor: '#ffefff', justifyItems: 'center', }}>
+            <Button 
             title="Ir para tela B"
             onPress={openScreen}
             />

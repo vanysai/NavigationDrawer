@@ -3,6 +3,7 @@ export declare global {
         interface RootParamList{
             screenA: undefined;
             screenB: undefined;
+            screenC: undefined;
         }
     }
 }

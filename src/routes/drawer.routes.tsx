@@ -4,18 +4,23 @@ const {Screen, Navigator} = createDrawerNavigator();
 
 import { ScreenA } from '../screens/ScreenA';
 import { ScreenB } from '../screens/ScreenB';
+import { ScreenC } from '../screens/ScreenC';
 
 export function DrawerRoutes(){
     return(
         <Navigator>
             <Screen
-                name='screenA'
+                name='Lucy'
                 component={ScreenA}
                 
             />
             <Screen
-                name='screenB'
+                name='David'
                 component={ScreenB}
+            />
+            <Screen
+                name='Rebeca'
+                component={ScreenC}
             />
         </Navigator>
     )

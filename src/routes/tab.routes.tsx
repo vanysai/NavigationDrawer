@@ -5,23 +5,24 @@ const {Screen, Navigator} = createBottomTabNavigator();
 
 import { ScreenA } from '../screens/ScreenA';
 import { ScreenB } from '../screens/ScreenB';
+import { ScreenC } from '../screens/ScreenC';
 
 export function TabRoutes(){
     return(
         <Navigator
             screenOptions={{
                 tabBarActiveTintColor: 'black',
-                tabBarInactiveTintColor: 'purple'
+                tabBarInactiveTintColor: '#605f96'
             }}
         >
             <Screen
                 name='screenA'
                 component={ScreenA}
                 options={{
-                    tabBarLabel: 'Tela A',
+                    tabBarLabel: 'Lucy',
                     tabBarIcon: ({color, size}) => (
                         <MaterialIcons
-                            name='home'
+                            name='star'
                             color={color}
                             size={size}
                         
@@ -34,10 +35,25 @@ export function TabRoutes(){
                 name='screenB'
                 component={ScreenB}
                 options={{
-                    tabBarLabel: 'Tela B',
+                    tabBarLabel: 'David',
                     tabBarIcon: ({color, size}) => (
                         <MaterialIcons
-                            name='star'
+                            name='computer'
+                            color={color}
+                            size={size}
+                    
+                        />
+                    )
+                }}
+            />
+            <Screen
+                name='screenC'
+                component={ScreenC}
+                options={{
+                    tabBarLabel: 'Rebecca',
+                    tabBarIcon: ({color, size}) => (
+                        <MaterialIcons
+                            name='money'
                             color={color}
                             size={size}
                     
