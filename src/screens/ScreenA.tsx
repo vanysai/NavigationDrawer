@@ -14,11 +14,11 @@ export function ScreenA(){
 
     return (
         <view style={{flex: 1, backgroundColor: '#ffefff', alignItems: 'center', height: 200, borderRadius:20, opacity:'80%' }}>
-            <Button 
+            {/* <Button 
             title="Ir para tela B"
             onPress={openScreen}
-            />
-            <Image source={require('/Users/jaiza_freire/Documents/ReactNative/ProjetoDrawer/assets/lucy.jpeg')}
+            /> */}
+            <Image source={require('/home/izabugs/Documents/ReactNativeReforce/drawerproject/NavigationDrawer/assets/lucy.jpeg')}
             style={styles.img}/>
         </view>
     );
@@ -33,12 +33,12 @@ const styles = StyleSheet.create({
         flexDirection:'column',
     },
     img:{
-        width:350,
-        height:350,
+        width:150,
+        height:150,
         borderRadius:200,
         position:'absolute',
         justifyContent: 'center',
-        left: 770,
+        left: 130,
         top:250,
         zIndex: 2,
         borderWidth:7,
