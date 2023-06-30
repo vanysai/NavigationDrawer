@@ -1,14 +1,17 @@
-# Atividade de Sala - Navigation Drawer 
-![image](https://github.com/vanysai/NavigationDrawer/assets/99412036/0e7d8145-9654-4d1b-ba27-62ff8d3f62cc)
+<h1 align="center"> Navigation Drawer </h1>
 
-- Entregar (link do github) projeto utilizando Navegação em Drawer e desenvolver:
+<p align="center">
+  <img src="https://media.giphy.com/media/htX763pvaXp7ApQA9Z/giphy.gif" alt="animated"/>
+</p>
+
+ - Entregar (link do github) projeto utilizando Navegação em Drawer e desenvolver:
 - 3 Telas com o tema de Cyberpunk EdgeRunners 
 
-# Objetivo
+<h2 align="center"> Objetivo </h2>
 
--  App Drawer funcional.
+- App Drawer funcional. 
   
-# Comandos
+<h2 align="center"> Comandos </h2>
 
 - expo start
 - blank (Typescript)
@@ -21,15 +24,3 @@
 - npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
 - npx expo install @expo/webpack-config@^18.0.1
 
-# Arquivo babel.config.js
-
-
-return {
-presets: ['babel-preset-expo'],
-plugins: [
-'react-native-reanimated/plugin',
-],
-};
-
-
-// headerShown: false, (utiliza-se para não mostrar header)
