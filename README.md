@@ -1,4 +1,11 @@
-# Reforço React Native
+# Atividade de Sala - Navigation Drawer 
+
+- Entregar (link do github) projeto utilizando Navegação em Drawer e desenvolver:
+- 3 Telas a escolha do aluno. 
+
+# Objetivo
+
+-  App Drawer funcional. 
 
 # Comandos
 
@@ -10,7 +17,18 @@
 - npm install @react-navigation/native-stack
 - npm install @react-navigation/bottom-tabs
 - npm install @react-navigation/drawer
-- expo install react-native-reanimated
-- expo install react-native-gesture-handler@2.2.1
+- npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+- npx expo install @expo/webpack-config@^18.0.1
+
+# Arquivo babel.config.js
+
+
+return {
+presets: ['babel-preset-expo'],
+plugins: [
+'react-native-reanimated/plugin',
+],
+};
+
 
 // headerShown: false, (utiliza-se para não mostrar header)
