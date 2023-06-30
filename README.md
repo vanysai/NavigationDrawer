@@ -1,7 +1,7 @@
 # Atividade de Sala - Navigation Drawer 
 
 - Entregar (link do github) projeto utilizando Navegação em Drawer e desenvolver:
-- 3 Telas a escolha do aluno. 
+- 3 Telas com o tema de Cyberpunk EdgeRunners 
 
 # Objetivo
 
