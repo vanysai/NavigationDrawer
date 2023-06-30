@@ -1,4 +1,5 @@
 # Atividade de Sala - Navigation Drawer 
+![image](https://github.com/vanysai/NavigationDrawer/assets/99412036/0e7d8145-9654-4d1b-ba27-62ff8d3f62cc)
 
 - Entregar (link do github) projeto utilizando Navegação em Drawer e desenvolver:
 - 3 Telas com o tema de Cyberpunk EdgeRunners 
