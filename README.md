@@ -6,8 +6,8 @@
 
 # Objetivo
 
--  App Drawer funcional. 
-
+-  App Drawer funcional.
+  
 # Comandos
 
 - expo start
